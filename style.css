@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+#number {
+  font-size: 30px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+input[type="number"] {
+  width: 80px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 22px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.check-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 24px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 5px;
+}

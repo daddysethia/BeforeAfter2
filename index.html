@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Guessing Game</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Guessing Game</h1>
+  <div class="container">
+    <div class="box">
+      <input type="number" id="guess1" placeholder="Before" name="guess1" min="1" max="100">
+    </div>
+    <div class="box" id="center-box">
+      <span id="number"></span>
+    </div>
+    <div class="box">
+      <input type="number" id="guess2" placeholder="After" name="guess2" min="1" max="100">
+    </div>
+  </div>
+  <div class="check-container">
+    <button id="check-btn">Check</button>
+  </div>
+  <div id="message"></div>
+  <script src="script.js"></script>
+</body>
+</html>
